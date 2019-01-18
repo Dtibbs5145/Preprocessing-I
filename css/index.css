@@ -146,36 +146,87 @@ body {
   margin-top: 10px;
 }
 .container header nav a {
-  display: flex;
-  margin-left: 542px;
-  font-size: 1rem;
-  justify-content: space-between;
-  margin-bottom: 5px;
-  flex-direction: row-reverse;
+  display: inline-flex;
+  margin-left: 120px;
+  font-size: 0.9rem;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  flex-direction: row;
 }
 .container .top-content {
+  background: rgba(250, 234, 204, 0.63);
+  padding: 5px;
+  border: 0.5px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 30px;
+  line-height: 50px;
 }
 .container .top-content h3 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
 }
 .container .top-content h4 {
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 .container .top-content p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 .container .top-content button {
   background: #f5c1dd;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  -webkit-transition: width 2s;
-  transition: width 2s;
+  width: 150px;
+  height: 30px;
+  border: 1px solid white;
 }
-.container .top-content button div:hover {
-  width: 300px;
+.container .middle-content {
+  background: rgba(250, 234, 204, 0.63);
+  padding: 5px;
+  margin-top: 20px;
+  border: 0.5px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .middle-content h4 {
+  font-size: 2rem;
+}
+.container .middle-content p {
+  font-size: 1.2rem;
+}
+.container .bottom-content {
+  background: rgba(250, 234, 204, 0.63);
+  padding: 5px;
+  border: 0.5px solid black;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .bottom-content h4 {
+  font-size: 2rem;
+}
+.container .bottom-content p {
+  font-size: 1.2rem;
+}
+.container .bottom-content ul {
+  line-height: 30px;
+  font-size: 1rem;
+  list-style-type: circle;
+}
+.container footer {
+  background: rgba(255, 255, 255, 0.247);
+  width: 155px;
+  margin-left: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container footer .contact {
+  padding: 5px;
+  border: 0.5px solid black;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

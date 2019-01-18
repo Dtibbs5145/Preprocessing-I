@@ -72,12 +72,13 @@ html, body {
 	}
   
 	header nav a {
-  		display: flex;
-		margin-left: 542px;
-		font-size: 1rem;
-		justify-content: space-between;
-		margin-bottom: 5px;
-		flex-direction: row-reverse;
+  		display: inline-flex;
+		margin-left: 120px;
+		font-size: .9rem;
+		justify-content: flex-end;
+		margin-bottom: 20px;
+		margin-top: 10px;
+		flex-direction: row;
 	}	
   
 	// .img1 {
@@ -89,31 +90,84 @@ html, body {
 	// }
 
 	.top-content {
+		background: rgba(250, 234, 204, 0.63);
+		padding: 5px;
+		border: .5px solid black;
   		display: flex;
   		flex-direction: column;
   		align-items: center;
-  		line-height: 30px;
+  		line-height: 50px;
 			h3 {
-	  		font-size: 2.5rem;
+	  		font-size: 2.8rem;
 		  
   			}
 			h4 {
-				font-size: 1.3rem;
+				font-size: 2rem;
 			}  
 			p {
-				font-size: .9rem;
+				font-size: 1.2rem;
 			}
 			button {
 				background: rgb(245, 193, 221);
 				border-radius: 50%;
-				width: 70px;
-				height: 70px;
-  				-webkit-transition: width 2s;
-				transition: width 2s;
-				
-				div:hover {
-					width: 300px;
-				}
+				width: 150px;
+				height: 30px;
+				border: 1px solid white;
 			}
-	}  
+	}
+
+	.middle-content {
+		background: rgba(250, 234, 204, 0.63);
+		padding: 5px;
+		margin-top: 20px;
+		border: .5px solid black;
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		h4 {
+			font-size: 2rem;
+		}
+		p {
+			font-size: 1.2rem;
+		}
+	}
+
+	.bottom-content {
+		background: rgba(250, 234, 204, 0.63);
+		padding: 5px;
+		border: .5px solid black;
+		margin-top: 20px;
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		h4 {
+			font-size: 2rem;
+		}
+		p {
+			font-size: 1.2rem;
+		}
+		ul {
+			line-height: 30px;
+			font-size: 1rem;
+			list-style-type: circle;
+		}
+	}
+
+	footer {
+		background: rgba(255, 255, 255, 0.247);
+		width: 155px;
+		margin-left: 330px;
+		display: flex;
+  		flex-direction: column;
+		align-items: center;
+
+		.contact {
+		padding: 5px;
+		border: .5px solid black;
+		margin-top: 20px;
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		}
+	}
 }
