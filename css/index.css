@@ -133,25 +133,49 @@ table {
 html,
 body {
   height: 100%;
-  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BNnQHWfYgiz76sa1n/videoblocks-abstract-pastel-background_r_3nah-fw_thumbnail-full01.png');
+  background-image: url('https://i.pinimg.com/originals/ec/15/95/ec1595bb2c276a7eb0927da893fc09c6.jpg');
 }
 .container {
   max-width: 800px;
   margin: 0 auto;
   font-size: 62.5%;
 }
-h1 {
-  font-size: 2.5rem;
+.container h1 {
+  font-size: 2rem;
+  display: inline-flex;
+  margin-top: 10px;
 }
-header nav {
-  display: inline;
+.container header nav a {
+  display: flex;
   margin-left: 542px;
   font-size: 1rem;
   justify-content: space-between;
+  margin-bottom: 5px;
+  flex-direction: row-reverse;
 }
-.img1 {
+.container .top-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+}
+.container .top-content h3 {
+  font-size: 2.5rem;
+}
+.container .top-content h4 {
+  font-size: 1.3rem;
+}
+.container .top-content p {
+  font-size: 0.9rem;
+}
+.container .top-content button {
+  background: #f5c1dd;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  -webkit-transition: width 2s;
+  transition: width 2s;
+}
+.container .top-content button div:hover {
   width: 300px;
-}
-.top-content {
-  flex-direction: row;
 }
